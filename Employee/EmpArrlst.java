@@ -47,7 +47,7 @@ public static void main(String[] args) throws Exception
      list.add(new Employee(3, "Bhawana","Bangalore",50000));
      list.add(new Employee(4, "Geetha","Pune",35000));
  
-        for (Employee s : list) 
+        for(Employee emp: list) 
         {
-            System.out.println(s.getId()+" "+s.getName()+" " +s.getAddress()+" "+s.getSalary());
+            System.out.println(emp.getId()+" "+emp.getName()+" " +emp.getAddress()+" "+emp.getSalary());
         }}}
